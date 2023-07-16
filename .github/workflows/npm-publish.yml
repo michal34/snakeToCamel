@@ -38,5 +38,7 @@ jobs:
                   git add .
                   git diff --quiet --exit-code -- package.json || git commit -m "Update dist directory and package.json version to $new_version"
                   git push origin master
-
+                  
             - run: npm publish
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.token_npm }}
