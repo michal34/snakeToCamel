@@ -1,0 +1,20 @@
+{
+    "name": "@lskgroup/snaketocamel",
+    "version": "1.0.0",
+    "description": "Package with snakeToCamel function",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/michal34/snakeToCamel.git"
+    },
+    "author": "Mike",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/michal34/snakeToCamel/issues"
+    },
+    "homepage": "https://github.com/michal34/snakeToCamel#readme"
+}
